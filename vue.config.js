@@ -6,4 +6,5 @@ module.exports = defineConfig({
         process.env.NODE_ENV === 'production'
             ? '/beetroot-example-vue-quiz/'
             : '/',
+    outputDir: 'beetroot-example-vue-quiz',
 });
