@@ -17,10 +17,13 @@ const routes = [
 
 ]
 
+const base = process.env.NODE_ENV === 'production'
+  ? '/beetroot-example-vue-quiz'
+  : '/';
+
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(base),
   routes,
-  base: process.env.NODE_ENV === 'production' ? '/beetroot-example-vue-quiz/' : '/',
 })
 
 export default router

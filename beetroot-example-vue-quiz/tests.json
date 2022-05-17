@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "description": "JS Фреймворки",
+        "question": "Що із нижче перечислених пунктів не є JavaScript фреймворком",
+        "answers": [
+            { "id": 1, "title": "Vue.js" },
+            { "id": 2, "title": "React.js" },
+            { "id": 3, "title": "Angular" },
+            { "id": 4, "title": "Swelte.js" }
+        ],
+        "correct_answer": 2,
+        "picture": "/test_pictures/js-frameworks.png"
+    },
+    {
+        "id": 2,
+        "description": "Препроцесори",
+        "question": "Який з препроцесорів є найпопулярнішим",
+        "answers": [
+            { "id": 1, "title": "LESS" },
+            { "id": 2, "title": "SASS/SCSS" },
+            { "id": 3, "title": "Stylys" }
+        ],
+        "correct_answer": 2,
+        "picture": "/test_pictures/cssprepros.png"
+    },
+    {
+        "id": 3,
+        "description": "Інструменти розробки",
+        "question": "Яка компанія підтримує розробку редактора VSCode",
+        "answers": [
+            { "id": 1, "title": "Microsoft" },
+            { "id": 2, "title": "Oracle" },
+            { "id": 3, "title": "JetBrains" }
+        ],
+        "correct_answer": 1
+    }
+]
