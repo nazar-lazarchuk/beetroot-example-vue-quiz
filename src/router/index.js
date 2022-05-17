@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { publicPath } from '../../vue.config'
 import HomeView from '../views/HomeView.vue'
 import QuizView from '../views/QuizView.vue'
 
@@ -21,7 +20,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  base: publicPath,
+  base: process.env.NODE_ENV === 'production' ? '/beetroot-example-vue-quiz/' : '/',
 })
 
 export default router
