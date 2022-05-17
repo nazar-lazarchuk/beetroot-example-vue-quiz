@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { publicPath } from '../../vue.config'
 import HomeView from '../views/HomeView.vue'
 import QuizView from '../views/QuizView.vue'
 
@@ -19,7 +20,8 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  base: publicPath,
 })
 
 export default router
